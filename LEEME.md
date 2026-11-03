@@ -1,5 +1,7 @@
 # El perfil compartido
 
+Se sirve en `una.red/perfil/` (Cloudflare lo lee de este repo, publicado en GitHub Pages). Tiene que seguir en el origen de `una.red`: el perfil se guarda en el `localStorage` del origen y lo comparten `coches`, `boliche` y los demás juegos que lo importan con `../perfil/perfil.js`. Los enlaces relativos (`../ds/`, `../favicon.svg`) suponen ese origen.
+
 La moneda común (los sucres, como la moneda del Ecuador hasta el 2000), los logros y la cuenta de todos los juegos.
 
 - `perfil.js`: el perfil. Se guarda en el navegador (`una.perfil.v1`) y lo comparten todos los juegos del sitio.
