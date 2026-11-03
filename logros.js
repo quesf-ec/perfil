@@ -27,7 +27,7 @@ export const LOGROS = [
 ];
 
 export const JUEGOS = {
-  boliche: { nombre: 'El boliche', url: 'apps/boliche/juego/' },
+  boliche: { nombre: 'El boliche', url: 'boliche/juego/' },
   coches: { nombre: 'Coches de madera', url: 'coches/' },
 };
 
